@@ -13,7 +13,7 @@ This project will explore packets and delays which you studied in Chapter 1. You
 The run shows a receiver connecting to a remote host and fetching a bunch of packets. A packet comprises a header and a payload (data). The receiver extracts the payload from each packet and writes it out to the output file 'data.dat' in the correct order. The receiver prints out packet related information in the order the packets are received, not necessarily their correct order in the file. The receiver closes the connection after receiving the entire file.
 
 The structure of a packet is:
-
+ ```
     0                   1                   2                   3
     0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -21,5 +21,6 @@ The structure of a packet is:
    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
    |           Length              |    Data (up to 1500 bytes)    |
    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ ```
    
 The sequence number is 32-bit and the packet length is 16-bit, both in network byte order, RFC 1700. The sequence number is similar to a TCP sequence number, RFC 793; it indicates the position of the packet in the file.
