@@ -1,4 +1,4 @@
-# IHLP
+# IHLP A2
 Projects Exploring Internet and Higher Layer Protocols 
 
 A2 Packets and Delays
