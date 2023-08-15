@@ -1,11 +1,6 @@
 /*
  * CS 656 Spring 2022
  * RECV TEMPLATE V 1.00
- *
- * Group Name: D34
- * Members: Akash Nagabandhi(an547@njit.edu), Nandeeshvar Porko Pandiyan (nt43@njit.edu), Ashwath Arasan (aa3336@njit.edu), Nicholas Lynardakis(nl98@njit.edu), Satchit Hegde(sh699@njit.edu) 
- * Follow all directions carefully. Your total file must
- * be less than 250 lines excluding comments.
  */
 import java.io.IOException;
 import java.util.ArrayList;
