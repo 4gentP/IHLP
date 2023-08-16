@@ -1,7 +1,7 @@
 # Packet Handling and Delays
 Projects Exploring Internet and Higher Layer Protocols 
 
-This project will explore packets and delays which you studied in Chapter 1. You will develop a packet receiver which will receive the file. Your receiver will be called Recv.java and it will work precisely like this:
+This project will explore packets and delay. By developing a packet receiver which will receive the file. Your receiver will be called Recv.java and it will work precisely like this:
  ```
 [afs2] $ java Recv afsaccess3 5001 data.dat
   connected to 128.235.1.2 on port 5000
